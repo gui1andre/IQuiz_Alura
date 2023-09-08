@@ -14,6 +14,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func clickButton(_ sender: Any) {
+        print("Botão Pressionado!")
+    }
+    
+    @IBOutlet weak var IniciadoButton: UIButton!
 }
 
